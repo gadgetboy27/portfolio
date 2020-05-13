@@ -121,7 +121,7 @@
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/8ADD250D-17B5-44A0-8C35-5F8D4F258884.jpeg");
+      background: url(none);
       width: 150px;
       height: 150px; }
   .about-info {
@@ -211,7 +211,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage' 'bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
